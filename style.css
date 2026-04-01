@@ -1,0 +1,45 @@
+body {
+  background:#f4f4f4;
+    line-height:1.6;
+}
+
+/* Header */
+header {
+  background-color: #2c3e50;    /* Màu nền tối hiện đại */
+  color: #ecf0f1;               /* Màu chữ sáng */
+  padding: 20px 0;
+  text-align: center;
+  border-bottom: 4px solid #bc5b1a; /* Đường viền xanh ngọc dưới header */
+}
+
+header h1 {
+  margin: 0;
+  font-size: 36px;
+  letter-spacing: 1px;
+}
+
+/* Main content - căn giữa dọc & ngang */
+.main-content {
+  flex: 1;
+  display: flex;
+  align-items: center;     /* căn giữa dọc */
+  justify-content: center; /* căn giữa ngang */
+}
+
+.menu {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  font-size: 24px;
+  text-align: center;
+}
+
+/* Footer */
+footer {
+  background: #d15208;
+  color: white;
+  text-align: center;
+  padding: 20px 0;
+  margin-top: 40px;
+  font-size: 20px;
+}
